@@ -3,6 +3,7 @@ MTLogging
 MTLogging is a collection of Logging-related Code, that makes Logging in Objective C really easy.
 
 It incorporates the following code into one, simple to use, static library and adapts a few things:
+
 * [CocoaLumberJack](http://github.com/robbiehanson/CocoaLumberjack)
 * [Vincent Gable: "The most Useful Code I've ever written"](http://vgable.com/blog/2010/08/19/the-most-useful-objective-c-code-ive-ever-written/)
 * [Peter Steinberger: "Custom Formatter for the cocoalumberjack logging framework"](http://petersteinberger.com/2010/09/custom-formatter-for-the-cocoalumberjack-logging-framework/)
