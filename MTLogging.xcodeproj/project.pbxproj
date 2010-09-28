@@ -23,7 +23,7 @@
 		391ADD05125155BE001C6936 /* InitLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 391ADD03125155BE001C6936 /* InitLogging.m */; };
 		391ADD0912515649001C6936 /* VTPG_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 391ADD0712515649001C6936 /* VTPG_Common.h */; };
 		391ADD0A12515649001C6936 /* VTPG_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 391ADD0812515649001C6936 /* VTPG_Common.m */; };
-		391ADD1F1251593F001C6936 /* MTLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 391ADD1E1251593F001C6936 /* MTLogging.h */; };
+		391ADD1F1251593F001C6936 /* MTLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 391ADD1E1251593F001C6936 /* MTLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA747D9F0F9514B9006C5449 /* MTLogging_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MTLogging_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
