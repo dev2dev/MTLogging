@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		391ADCE812515504001C6936 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 391ADCE012515504001C6936 /* DDASLLogger.h */; };
+		391ADCE912515504001C6936 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 391ADCE112515504001C6936 /* DDASLLogger.m */; };
+		391ADCEA12515504001C6936 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 391ADCE212515504001C6936 /* DDFileLogger.h */; };
+		391ADCEB12515504001C6936 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 391ADCE312515504001C6936 /* DDFileLogger.m */; };
+		391ADCEC12515504001C6936 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 391ADCE412515504001C6936 /* DDLog.h */; };
+		391ADCED12515504001C6936 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 391ADCE512515504001C6936 /* DDLog.m */; };
+		391ADCEE12515504001C6936 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 391ADCE612515504001C6936 /* DDTTYLogger.h */; };
+		391ADCEF12515504001C6936 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 391ADCE712515504001C6936 /* DDTTYLogger.m */; };
+		391ADCFA1251553D001C6936 /* ColorLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 391ADCF81251553D001C6936 /* ColorLog.h */; };
+		391ADCFB1251553D001C6936 /* ColorLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 391ADCF91251553D001C6936 /* ColorLog.m */; };
+		391ADCFF12515558001C6936 /* MTDDFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 391ADCFD12515558001C6936 /* MTDDFormatter.h */; };
+		391ADD0012515558001C6936 /* MTDDFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 391ADCFE12515558001C6936 /* MTDDFormatter.m */; };
+		391ADD04125155BE001C6936 /* InitLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 391ADD02125155BE001C6936 /* InitLogging.h */; };
+		391ADD05125155BE001C6936 /* InitLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 391ADD03125155BE001C6936 /* InitLogging.m */; };
+		391ADD0912515649001C6936 /* VTPG_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 391ADD0712515649001C6936 /* VTPG_Common.h */; };
+		391ADD0A12515649001C6936 /* VTPG_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 391ADD0812515649001C6936 /* VTPG_Common.m */; };
+		391ADD1F1251593F001C6936 /* MTLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 391ADD1E1251593F001C6936 /* MTLogging.h */; };
+		AA747D9F0F9514B9006C5449 /* MTLogging_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MTLogging_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		391ADCE012515504001C6936 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		391ADCE112515504001C6936 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		391ADCE212515504001C6936 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		391ADCE312515504001C6936 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		391ADCE412515504001C6936 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		391ADCE512515504001C6936 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		391ADCE612515504001C6936 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		391ADCE712515504001C6936 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		391ADCF81251553D001C6936 /* ColorLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorLog.h; sourceTree = "<group>"; };
+		391ADCF91251553D001C6936 /* ColorLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorLog.m; sourceTree = "<group>"; };
+		391ADCFD12515558001C6936 /* MTDDFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDDFormatter.h; sourceTree = "<group>"; };
+		391ADCFE12515558001C6936 /* MTDDFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDDFormatter.m; sourceTree = "<group>"; };
+		391ADD02125155BE001C6936 /* InitLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitLogging.h; sourceTree = "<group>"; };
+		391ADD03125155BE001C6936 /* InitLogging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitLogging.m; sourceTree = "<group>"; };
+		391ADD0712515649001C6936 /* VTPG_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTPG_Common.h; sourceTree = "<group>"; };
+		391ADD0812515649001C6936 /* VTPG_Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTPG_Common.m; sourceTree = "<group>"; };
+		391ADD1E1251593F001C6936 /* MTLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLogging.h; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* MTLogging_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTLogging_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libMTLogging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMTLogging.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libMTLogging.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* MTLogging */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = MTLogging;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				391ADD0612515649001C6936 /* Expressions */,
+				391ADD011251558D001C6936 /* Helpers */,
+				391ADCF71251553D001C6936 /* ColorLog */,
+				391ADCDF12515504001C6936 /* Lumberjack */,
+				391ADCFC12515558001C6936 /* Formatter */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* MTLogging_Prefix.pch */,
+				391ADD1E1251593F001C6936 /* MTLogging.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		391ADCDF12515504001C6936 /* Lumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				391ADCE012515504001C6936 /* DDASLLogger.h */,
+				391ADCE112515504001C6936 /* DDASLLogger.m */,
+				391ADCE212515504001C6936 /* DDFileLogger.h */,
+				391ADCE312515504001C6936 /* DDFileLogger.m */,
+				391ADCE412515504001C6936 /* DDLog.h */,
+				391ADCE512515504001C6936 /* DDLog.m */,
+				391ADCE612515504001C6936 /* DDTTYLogger.h */,
+				391ADCE712515504001C6936 /* DDTTYLogger.m */,
+			);
+			path = Lumberjack;
+			sourceTree = "<group>";
+		};
+		391ADCF71251553D001C6936 /* ColorLog */ = {
+			isa = PBXGroup;
+			children = (
+				391ADCF81251553D001C6936 /* ColorLog.h */,
+				391ADCF91251553D001C6936 /* ColorLog.m */,
+			);
+			path = ColorLog;
+			sourceTree = "<group>";
+		};
+		391ADCFC12515558001C6936 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				391ADCFD12515558001C6936 /* MTDDFormatter.h */,
+				391ADCFE12515558001C6936 /* MTDDFormatter.m */,
+			);
+			path = Formatter;
+			sourceTree = "<group>";
+		};
+		391ADD011251558D001C6936 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				391ADD02125155BE001C6936 /* InitLogging.h */,
+				391ADD03125155BE001C6936 /* InitLogging.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		391ADD0612515649001C6936 /* Expressions */ = {
+			isa = PBXGroup;
+			children = (
+				391ADD0712515649001C6936 /* VTPG_Common.h */,
+				391ADD0812515649001C6936 /* VTPG_Common.m */,
+			);
+			path = Expressions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* MTLogging_Prefix.pch in Headers */,
+				391ADCE812515504001C6936 /* DDASLLogger.h in Headers */,
+				391ADCEA12515504001C6936 /* DDFileLogger.h in Headers */,
+				391ADCEC12515504001C6936 /* DDLog.h in Headers */,
+				391ADCEE12515504001C6936 /* DDTTYLogger.h in Headers */,
+				391ADCFA1251553D001C6936 /* ColorLog.h in Headers */,
+				391ADCFF12515558001C6936 /* MTDDFormatter.h in Headers */,
+				391ADD04125155BE001C6936 /* InitLogging.h in Headers */,
+				391ADD0912515649001C6936 /* VTPG_Common.h in Headers */,
+				391ADD1F1251593F001C6936 /* MTLogging.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* MTLogging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "MTLogging" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTLogging;
+			productName = MTLogging;
+			productReference = D2AAC07E0554694100DB518D /* libMTLogging.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "MTLogging" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* MTLogging */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* MTLogging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391ADCE912515504001C6936 /* DDASLLogger.m in Sources */,
+				391ADCEB12515504001C6936 /* DDFileLogger.m in Sources */,
+				391ADCED12515504001C6936 /* DDLog.m in Sources */,
+				391ADCEF12515504001C6936 /* DDTTYLogger.m in Sources */,
+				391ADCFB1251553D001C6936 /* ColorLog.m in Sources */,
+				391ADD0012515558001C6936 /* MTDDFormatter.m in Sources */,
+				391ADD05125155BE001C6936 /* InitLogging.m in Sources */,
+				391ADD0A12515649001C6936 /* VTPG_Common.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/MTLogging.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MTLogging_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = MTLogging;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/MTLogging.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MTLogging_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = MTLogging;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "MTLogging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "MTLogging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

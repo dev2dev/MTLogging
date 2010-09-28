@@ -1,0 +1,29 @@
+MTLogging
+=============
+MTLogging is a collection of Logging-related Code, that makes Logging in Objective C really easy.
+
+It incorporates the following code into one, simple to use, static library and adapts a few things:
+[CocoaLumberJack](http://github.com/robbiehanson/CocoaLumberjack)
+[Vincent Gable: "The most Useful Code I've ever written"](http://vgable.com/blog/2010/08/19/the-most-useful-objective-c-code-ive-ever-written/)
+[Peter Steinberger: "Custom Formatter for the cocoalumberjack logging framework"](http://petersteinberger.com/2010/09/custom-formatter-for-the-cocoalumberjack-logging-framework/)
+
+XCodeColors
+=============
+For even more awesomeness in logging install the XCode 3 & 4 - compatible SIMBL-Plugin
+
+[XCodeColors](http://deepit.ru/products/XcodeColors/info/)
+
+After that the different Logging Levels are automatically mapped to colors (easy configurable in MTDDFormatter.m):
+
+Errors - Red
+Warnings - Magenta
+Info - Black
+Verbose - Green
+
+
+How-To
+==============
+1) Just add the static library to your project and import "MTLogging.h"
+2) At the top of the Implementation-File call SET_DEFAULT_LOG_LEVEL();
+3) In - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions call InitDefaultLogger();
+4) You are good to go, feel free to log expressions with MTLog(expression) are other code with DDLogVerbose, DDLogInfo, DDLogWarning or DDLogError.
