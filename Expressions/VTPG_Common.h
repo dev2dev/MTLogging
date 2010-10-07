@@ -19,7 +19,7 @@ NSString * VTPG_DDToStringFromTypeAndValue(const char * typeCode, void * value);
 	if(_STR_)\
 		DDLogInfo(@"%s = %@", #_X_, _STR_);\
 	else\
-		DDLogWarning(@"Unknown _TYPE_CODE_: %s for expression %s in function %s, file %s, line %d", _TYPE_CODE_, #_X_, __func__, __FILE__, __LINE__);\
+		DDLogWarn(@"Unknown _TYPE_CODE_: %s for expression %s in function %s, file %s, line %d", _TYPE_CODE_, #_X_, __func__, __FILE__, __LINE__);\
 }while(0)
 
 
