@@ -17,7 +17,7 @@ void InitDefaultLogger();
 
 // Default Logging Level for Debugging-State is Log All
 // otherwise log only Warnings and Errors
-#ifdef DEBUG
+#ifdef CONFIGURATION_Debug
 #define SET_DEFAULT_LOG_LEVEL() static const int ddLogLevel = LOG_LEVEL_VERBOSE
 #else
 #define SET_DEFAULT_LOG_LEVEL() static const int ddLogLevel = LOG_LEVEL_WARN
